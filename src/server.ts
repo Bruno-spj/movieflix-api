@@ -99,7 +99,7 @@ app.delete("/movies/:id", async (req, res) => {
   } catch (error) {
     return res.status(500).send({ message: "Falha ao remover o filme" });
   }
-  res.status(200).send({ message: "Filme deletado com sucesso" });
+  res.status(200).send({ message: "Filme removido com sucesso" });
 });
 
 app.get("/movies/:genreName", async (req, res) => {
