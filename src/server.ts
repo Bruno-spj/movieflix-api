@@ -74,7 +74,7 @@ app.put("/movies/:id", async (req, res) => {
 
     res.status(200).send({ message: "Filme atualizado com sucesso" });
   } catch (error) {
-    res.status(500).send({ message: "Falha ao atualizar o registro" });
+    res.status(500).send({ message: "Falha ao atualizar o registro do Filme" });
   }
 });
 
